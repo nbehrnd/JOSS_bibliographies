@@ -1,0 +1,301 @@
+1;Gilles Louppe, Kyle Cranmer, Juan Pavez;carl: a likelihood-free inference toolbox;2016;1;11;https://doi.org/10.21105/joss.00011
+2;Jake VanderPlas;mst_clustering: Clustering via Euclidean Minimum Spanning Trees;2016;1;12;https://doi.org/10.21105/joss.00012
+3;Alice Harpole, Ian Hawke;R3D2: Relativistic Reactive Riemann problem solver for Deflagrations and Detonations;2016;1;16;https://doi.org/10.21105/joss.00016
+4;Zhao Zhang, Daniel S. Katz, Andre Merzky, Matteo Turilli, Shantenu Jha, Yadu Nand;Application Skeleton: Generating Synthetic Applications for Infrastructure Research;2016;1;17;https://doi.org/10.21105/joss.00017
+5;Matthew J. Wakefield;Xenomapper: Mapping reads in a mixed species context;2016;1;18;https://doi.org/10.21105/joss.00018
+6;Peter F Hickey;Representation and Manipulation of Genomic Tuples in R;2016;1;20;https://doi.org/10.21105/joss.00020
+7;J. K. Tauber;pyuca: a Python implementation of the Unicode Collation Algorithm;2016;1;21;https://doi.org/10.21105/joss.00021
+8;James P Balhoff;Scowl: a Scala DSL for programming with the OWL API;2016;1;23;https://doi.org/10.21105/joss.00023
+9;Daniel Foreman-Mackey;corner.py: Scatterplot matrices in Python;2016;1;24;https://doi.org/10.21105/joss.00024
+10;Zachary Sloan, Danny Arends, Karl W. Broman, Arthur Centeno, Nicholas Furlotte, Harm Nijveen, Lei Yan, Xiang Zhou, Robert W. Williams, Pjotr Prins;GeneNetwork: framework for web-based genetics;2016;1;25;https://doi.org/10.21105/joss.00025
+11;Conrad Sanderson, Ryan Curtin;Armadillo: a template-based C++ library for linear algebra;2016;1;26;https://doi.org/10.21105/joss.00026
+12;C. Titus Brown, Luiz Irber;sourmash: a library for MinHash sketching of DNA;2016;1;27;https://doi.org/10.21105/joss.00027
+13;Simon J. Greenhill;Phylogemetric: A Python library for calculating phylogenetic network metrics;2016;1;28;https://doi.org/10.21105/joss.00028
+14;Christian T. Jacobs, Alexandros Avdis;Git-RDM: A research data management plugin for the Git version control system;2016;1;29;https://doi.org/10.21105/joss.00029
+15;Christopher R Madan;Prism: Multiple spline regression with regularization, dimensionality reduction, and feature selection;2016;dimensionality reduction;31;https://doi.org/10.21105/joss.00031
+16;Zoran Cuckovic;Advanced viewshed analysis: a Quantum GIS plug-in for the analysis of visual landscapes;2016;1;32;https://doi.org/10.21105/joss.00032
+17;Nitin Madnani, Anastassia Loukina;RSMTool: collection of tools building and evaluating automated scoring models;2016;1;33;https://doi.org/10.21105/joss.00033
+18;Robert T. McGibbon, Carlos X. Hernández, Matthew P. Harrigan, Steven Kearnes, Mohammad M. Sultan, Stanislaw Jastrzebski, Brooke E. Husic, Vijay S. Pande;Osprey: Hyperparameter Optimization for Machine Learning;2016;1;34;https://doi.org/10.21105/joss.00034
+19;Eetu Mäkelä;LAS: an integrated language analysis tool for multiple languages;2016;1;35;https://doi.org/10.21105/joss.00035
+20;Michael A Levy;gwdegree: Improving interpretation of geometrically-weighted degree estimates in exponential random graph models;2016;1;36;https://doi.org/10.21105/joss.00036
+21;Julia Silge, David Robinson;tidytext: Text Mining and Analysis Using Tidy Data Principles in R;2016;1;37;https://doi.org/10.21105/joss.00037
+22;Matt Germonprez, Thomas Gurney, Sai Uday Shankar Korlimarla, Robin Gandhi;DoSOCS: A System for SPDX 2.0 Document Creation and Storage;2016;1;38;https://doi.org/10.21105/joss.00038
+23;Simon Bogutzky, Jan Christoph Schrader, Nassrin Hajinejad, Barbara Grüter;PsychoPhysioCollector: A Smartphone-Based Data Collection App for Psychophysiological Research;2016;1;40;https://doi.org/10.21105/joss.00040
+24;Simon Bogutzky, Phillip Marsch, Licínio Roque, Nassrin Hajinejad, Barbara Grüter;PsychoPhysioPipeline: A Processing and Analysis Pipeline for Psychophysiological Research;2016;1;41;https://doi.org/10.21105/joss.00041
+25;Simon DW Frost;Gillespie.jl: Stochastic Simulation Algorithm in Julia;2016;1;42;https://doi.org/10.21105/joss.00042
+26;Christopher D. Cooper, Natalia C. Clementi, Gilbert Forsyth, Lorena A. Barba;PyGBe: Python, GPUs and Boundary elements for biomolecular electrostatics;2016;GPUs and Boundary elements for biomolecular electrostatics. Journal of Open Source Software;43;https://doi.org/10.21105/joss.00043
+27;Markus Raab;Elektra: universal framework to access configuration parameters;2016;1;44;https://doi.org/10.21105/joss.00044
+28;Samuel Hinton;ChainConsumer;2016;1;45;https://doi.org/10.21105/joss.00045
+29;Sebastian Bocquet, Faustin W. Carter;pygtc: beautiful parameter covariance plots (aka. Giant Triangle Confusograms);2016;1;46;https://doi.org/10.21105/joss.00046
+30;Nicholas M Van Horn, Aaron Beveridge;MassMine: Your Access To Data;2016;1;50;https://doi.org/10.21105/joss.00050
+31;Claudia Vitolo, Andrew Russell, Allan Tucker;rdefra: Interact with the UK AIR Pollution Database from DEFRA;2016;1;51;https://doi.org/10.21105/joss.00051
+32;Claudia Vitolo, Peter Wells, Martin Dobias, Wouter Buytaert;fuse: An R package for ensemble Hydrological Modelling;2016;1;52;https://doi.org/10.21105/joss.00052
+33;Rodrigo V Honorato;CAZy-parser a way to extract information from the Carbohydrate-Active enZYmes Database;2016;1;53;https://doi.org/10.21105/joss.00053
+34;Timothée Giraud, Nicolas Lambert;cartography: Create and Integrate Maps in your R Workflow;2016;1;54;https://doi.org/10.21105/joss.00054
+35;Dirk Eddelbuettel, Wush Wu;RcppCNPy: Read-Write Support for NumPy Files in R;2016;1;55;https://doi.org/10.21105/joss.00055
+36;Claudia Vitolo;hddtools: Hydrological Data Discovery Tools;2017;2;56;https://doi.org/10.21105/joss.00056
+37;Kyle Barbary;SEP: Source Extractor as a library;2016;1;58;https://doi.org/10.21105/joss.00058
+38;Jonathan A Michaels, Hansjörg Scherberger;hebbRNN: A Reward-Modulated Hebbian Learning Rule for Recurrent Neural Networks;2016;1;60;https://doi.org/10.21105/joss.00060
+39;Andy Yu Zhu Yao, David Kane;walkr: MCMC Sampling from Non-Negative Convex Polytopes;2017;2;61;https://doi.org/10.21105/joss.00061
+40;Guillermo Hernández, Francisco Fernández;xpecgen: A program to calculate x-ray spectra generated in tungsten anodes;2016;1;62;https://doi.org/10.21105/joss.00062
+41;Carl Ganz;rintrojs: A Wrapper for the Intro.js Library;2016;1;63;https://doi.org/10.21105/joss.00063
+42;Kelly A. Kearney;ecopath_matlab: A Matlab-based implementation of the Ecopath food web algorithm;2017;2;64;https://doi.org/10.21105/joss.00064
+43;Dean Attali;ezknitr: Avoid the Typical Working Directory Pain When Using 'knitr';2016;1;75;https://doi.org/10.21105/joss.00075
+44;Paul Constantine, Ryan Howard, Andrew Glaws, Zachary Grey, Paul Diaz, Leslie Fletcher;Python Active-subspaces Utility Library;2016;1;79;https://doi.org/10.21105/joss.00079
+45;Andrew J. Page, Sascha Steinbiss, Ben Taylor, Torsten Seemann, Jacqueline A. Keane;GFF3toEMBL: Preparing annotated assemblies for submission to EMBL;2016;1;80;https://doi.org/10.21105/joss.00080
+46;Christos Theodoropoulos, Nikolaos Skoulikidis, Anastasios Stamou;Habfuzz: A tool to calculate the instream hydraulic habitat suitability using fuzzy logic and fuzzy Bayesian inference;2016;1;82;https://doi.org/10.21105/joss.00082
+47;Manuel Holtgrewe, Dieter Beule;VCFPy: a Python 3 library with good support for both reading and writing VCF;2016;1;85;https://doi.org/10.21105/joss.00085
+48;Danny Arends, Yang Li, Gudrun A. Brockmann, Ritsert C. Jansen, Robert W. Williams, Pjotr Prins;Correlation Trait Loci (CTL) mapping: phenotype network inference subject to genotype;2016;1;87;https://doi.org/10.21105/joss.00087
+49;Andrew Halterman;Mordecai: Full Text Geoparsing and Event Geocoding;2017;2;91;https://doi.org/10.21105/joss.00091
+50;Zachary M. Jones, Fridolin J. Linder;edarf: Exploratory Data Analysis using Random Forests;2016;1;92;https://doi.org/10.21105/joss.00092
+51;Julien Ponge, Yannick Loiseau, Frédéric Le Mouël, Nicolas Stouls, Philippe Charrière, Daniel Petisme, Sylvain Desgrais, Franck Verrot;Eclipse Golo;2016;1;93;https://doi.org/10.21105/joss.00093
+52;Jon Herman, Will Usher;SALib: An open-source Python library for Sensitivity Analysis;2017;2;97;https://doi.org/10.21105/joss.00097
+53;Philipp H Boersch-Supan;rucrdtw: Fast time series subsequence search in R;2016;1;100;https://doi.org/10.21105/joss.00100
+54;Kolby L. Weisenburger, Joseph Huehnerhoff, Emily M. Levesque, Philip Massey;acronym: An Automatic Reduction Pipeline for Astronomical Images;2017;2;102;https://doi.org/10.21105/joss.00102
+55;Kevin DeSimone, Ariel Rokem, Keith Schneider;popeye: a population receptive field estimation tool;2016;1;103;https://doi.org/10.21105/joss.00103
+56;Sean M Hughes;plater: Read, Tidy, and Display Data from Microtiter Plates;2016;Tidy;106;https://doi.org/10.21105/joss.00106
+57;Rémi Rampin, Fernando Chirigati, Dennis Shasha, Juliana Freire, Vicky Steeves;ReproZip: The Reproducibility Packer;2016;1;107;https://doi.org/10.21105/joss.00107
+58;Matthew J. Wakefield;SurvivalVolume: interactive volume threshold survival graphs;2016;1;111;https://doi.org/10.21105/joss.00111
+59;Rene L Warren;RAILS and Cobbler: Scaffolding and automated finishing of draft genomes using long DNA sequences;2016;1;116;https://doi.org/10.21105/joss.00116
+60;Andrew J. Page, Ben Taylor, Jacqueline A. Keane;Multilocus sequence typing by blast from de novo assemblies against PubMLST;2016;1;118;https://doi.org/10.21105/joss.00118
+61;Seward Lee;finreportr: Financial Data from U.S. Securities and Exchange Commission;2016;1;119;https://doi.org/10.21105/joss.00119
+62;Kivan Polimis, Ariel Rokem, Bryna Hazelton;Confidence Intervals for Random Forests in Python;2017;2;124;https://doi.org/10.21105/joss.00124
+63;Brian McFee;resampy: efficient sample rate conversion in Python;2016;1;125;https://doi.org/10.21105/joss.00125
+64;Clayton Norris, Philip Schrodt, John Beieler;PETRARCH2: Another Event Coding Program;2017;2;133;https://doi.org/10.21105/joss.00133
+65;Michel Lang, Bernd Bischl, Dirk Surmann;batchtools: Tools for R to work on batch systems;2017;2;135;https://doi.org/10.21105/joss.00135
+66;Benjamin Naecker, Niru Maheswaranathan, Surya Ganguli, Stephen Baccus;Pyret: A Python package for analysis of neurophysiology data;2017;2;137;https://doi.org/10.21105/joss.00137
+67;Kristian Jensen, Joao G.R. Cardoso, Nikolaus Sonnenschein;Optlang: An algebraic modeling language for mathematical optimization;2017;2;139;https://doi.org/10.21105/joss.00139
+68;Bryna J. Hazelton, Daniel C. Jacobs, Jonathan C. Pober, Adam P. Beardsley;pyuvdata: an interface for astronomical interferometeric datasets in python;2017;2;140;https://doi.org/10.21105/joss.00140
+69;Jeff Goldsmith;vbvs.concurrent: Fitting Methods for the Functional Linear Concurrent Model;2016;1;141;https://doi.org/10.21105/joss.00141
+70;Camille Scott;shmlast: An improved implementation of Conditional Reciprocal Best Hits with LAST and Python;2017;2;142;https://doi.org/10.21105/joss.00142
+71;Nicolas CARPi, Alexander Minges, Matthieu Piel;eLabFTW: An open source laboratory notebook for research labs;2017;2;146;https://doi.org/10.21105/joss.00146
+72;Antti Kamppi, Esko Pekkarinen, Janne Virtanen, Joni-Matti Määttä, Juho Järvinen, Lauri Matilainen, Mikko Teuho, Timo D. Hämäläinen;Kactus2: A graphical EDA tool built on the IP-XACT standard;2017;2;151;https://doi.org/10.21105/joss.00151
+73;Matthew M McCormick, Mark L Palmeri, Jean-Christophe Fillion-Robin, Stephen Aylward;SlicerITKUltrasound: A 3D Slicer extension for scan conversion of B-mode and next-generation ultrasound imaging modalities;2017;2;153;https://doi.org/10.21105/joss.00153
+74;Devarshi Ghoshal, Valerie Hendrix, William Fox, Sowmya Balasubhramanian, Lavanya Ramakrishnan;FRIEDA: Flexible Robust Intelligent Elastic Data Management Framework;2017;2;164;https://doi.org/10.21105/joss.00164
+75;Benny Malengier, Pavol Kišon, James Tocknell, Claas Abert, Florian Bruckner, Marc-Antonio Bisotti;ODES: a high level interface to ODE and DAE solvers;2018;3;165;https://doi.org/10.21105/joss.00165
+76;Pranay Seshadri, Geoffrey Parks;Effective-Quadratures (EQ): Polynomials for Computational Engineering Studies;2017;2;166;https://doi.org/10.21105/joss.00166
+77;R Daniel Kortschak, Josh Bleecher Snyder, Manolis Maragkakis, David L Adelson;bíogo: a simple high-performance bioinformatics toolkit for the Go language;2017;2;167;https://doi.org/10.21105/joss.00167
+78;R Daniel Kortschak, Brent S Pedersen, David L Adelson;bíogo/hts: high throughput sequence handling for the Go language;2017;2;168;https://doi.org/10.21105/joss.00168
+79;Eduardo S M Alexandre;Limarka: making possible Brazilian students writing dissertation and thesis with Markdown;2017;2;169;https://doi.org/10.21105/joss.00169
+80;Bradley C. Boehmke, Robert T. Montgomery, Jeffrey A. Ogden, Jason K. Freels;KraljicMatrix: An R package for implementing the Kraljic Matrix to strategically analyze a firm’s purchasing portfolio;2017;2;170;https://doi.org/10.21105/joss.00170
+81;David Ardia, Kris Boudt, Jean-Philippe Gagnon-Fleury;RiskPortfolios: Computation of Risk-Based Portfolios in R;2017;2;171;https://doi.org/10.21105/joss.00171
+82;David Ardia, Keven Bluteau;nse: Computation of Numerical Standard Errors in R;2017;2;172;https://doi.org/10.21105/joss.00172
+83;Anthony Caravaggi;remBoot: An R package for Random Encounter Modelling;2017;2;176;https://doi.org/10.21105/joss.00176
+84;Adam H Sparks, Tomislav Hengl, Andrew Nelson;GSODR: Global Summary Daily Weather Data in R;2017;2;177;https://doi.org/10.21105/joss.00177
+85;Julia Niskanen, Elina Salmela, Hannes Lohi;AncesTrim - a tool for trimming complex pedigrees;2017;2;179;https://doi.org/10.21105/joss.00179
+86;Miguel de Val-Borro, Martin A. Cordiner, Stefanie N. Milam, Steven B. Charnley;Cine: Line excitation by infrared fluorescence in cometary atmospheres;2017;2;182;https://doi.org/10.21105/joss.00182
+87;Brandon LeBeau;highlightHTML: CSS Formatting of R Markdown Documents;2018;3;185;https://doi.org/10.21105/joss.00185
+88;Carlos X. Hernández, Matthew P. Harrigan, Mohammad M. Sultan, Vijay S. Pande;MSMExplorer: Data Visualizations for Biomolecular Dynamics;2017;2;188;https://doi.org/10.21105/joss.00188
+89;Stuart W D Grieve;spatial-efd: A spatial-aware implementation of elliptical Fourier analysis;2017;2;189;https://doi.org/10.21105/joss.00189
+90;Charles Crabtree, Michael J. Nelson;Plotrr: Functions for making visual exploratory data analysis with nested data easier.;2017;2;190;https://doi.org/10.21105/joss.00190
+91;Scott Chamberlain, Jeffrey W. Hollister;lawn: An R client for the Turf Javascript Library for Geospatial Analysis;2017;2;194;https://doi.org/10.21105/joss.00194
+92;Bradley C. Boehmke, Jason K. Freels;learningCurve: An implementation of Crawford's and Wright's learning curve production functions;2017;2;202;https://doi.org/10.21105/joss.00202
+93;Matti Pastell;Weave.jl: Scientific Reports Using Julia;2017;2;204;https://doi.org/10.21105/joss.00204
+94;Leland McInnes, John Healy, Steve Astels;hdbscan: Hierarchical density based clustering;2017;2;205;https://doi.org/10.21105/joss.00205
+95;Nicholas Cortale, Dylan McNamara;skedm: Empirical Dynamic Modeling;2017;2;207;https://doi.org/10.21105/joss.00207
+96;Joshua Higgins, Violeta Holmes, Colin Venters;VCC: A framework for building containerized reproducible cluster software environments;2017;2;208;https://doi.org/10.21105/joss.00208
+97;Chapman Siu;Ramble: Parser Combinator for R;2017;2;209;https://doi.org/10.21105/joss.00209
+98;Geoff Boeing;OSMnx: A Python package to work with graph-theoretic OpenStreetMap street networks;2017;2;215;https://doi.org/10.21105/joss.00215
+99;Gilbert Marzolin, Olivier Gimenez;Fitting a Gamma-Gompertz survival model to capture-recapture data collected on free-ranging animal populations;2018;3;216;https://doi.org/10.21105/joss.00216
+100;Andre Schmeißer, Daniel Burkhart, Dominik Linn, Johannes Schnebele, Manuel Ettmüller, Simone Gramsch, Walter Arne;Ensight4Matlab: read, process, and write files in EnSight® Gold format from C++ or MATLAB®;2017;process;217;https://doi.org/10.21105/joss.00217
+101;Luca Romano;YoungTab;2017;2;221;https://doi.org/10.21105/joss.00221
+102;Davide Gerosa, Michele Vallisneri;filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography;2017;2;222;https://doi.org/10.21105/joss.00222
+103;Marie E. Rognes, Patrick E. Farrell, Simon W. Funke, Johan E. Hake, Molly M. C. Maleckar;cbcbeat: an adjoint-enabled framework for computational cardiac electrophysiology;2017;2;224;https://doi.org/10.21105/joss.00224
+104;Adam H Sparks;getCRUCLdata: Use and Explore CRU CL v. 2.0 Climatology Elements in R;2017;2;230;https://doi.org/10.21105/joss.00230
+105;Abhinav Tushar, Nicholas G Reich;flusight: interactive visualizations for infectious disease forecasts;2017;2;231;https://doi.org/10.21105/joss.00231
+106;Kevin D Murray, Justin O Borevitz;libqcpp: A C++14 sequence quality control library;2017;2;232;https://doi.org/10.21105/joss.00232
+107;R Daniel Kortschak, David L Adelson;bíogo/ncbi: interfaces to NCBI services for the Go language;2017;2;234;https://doi.org/10.21105/joss.00234
+108;Dominik Moritz;Text detection in screen images with a Convolutional Neural Network;2017;2;235;https://doi.org/10.21105/joss.00235
+109;Chris Mutel;Brightway: An open source framework for Life Cycle Assessment;2017;2;236;https://doi.org/10.21105/joss.00236
+110;Sean M. Anderson, Bernardo S. Mendoza;SHGYield;2017;2;242;https://doi.org/10.21105/joss.00242
+111;Andrew J. Page, Martin Hunt, Torsten Seemann, Jacqueline A. Keane;SaffronTree: Fast, reference-free pseudo-phylogenomic trees from reads or contigs.;2017;reference-free pseudo-phylogenomic trees from reads or contigs.. Journal of Open Source Software;243;https://doi.org/10.21105/joss.00243
+112;Chris Mutel;Pandarus: GIS toolkit for regionalized life cycle assessment;2017;2;244;https://doi.org/10.21105/joss.00244
+113;Benjamin J. Morgan;lattice_mc: A Python Lattice-Gas Monte Carlo Module;2017;2;247;https://doi.org/10.21105/joss.00247
+114;Sven N Willner, Corinne Hartin, Robert Gieseke;pyhector: A Python interface for the simple climate model Hector;2017;2;248;https://doi.org/10.21105/joss.00248
+115;Gaute Hope;IBCAO_py: A matplotlib library for using the International Bathymetric Chart of the Arctic Ocean with cartopy and matplotlib;2017;2;250;https://doi.org/10.21105/joss.00250
+116;Offray Vladimir Luna Cárdenas;Grafoscopio: A moldable tool for literate computing and reproducible research;2017;2;251;https://doi.org/10.21105/joss.00251
+117;John P Didion;xphyle: Extraordinarily simple file handling;2017;2;255;https://doi.org/10.21105/joss.00255
+118;James P. Howard, II;Virtual Bumblebees Artificial Life Simulation;2017;2;256;https://doi.org/10.21105/joss.00256
+119;Paul Francis Harrison;Varistran: Anscombe's variance stabilizing transformation for RNA-seq gene expression data;2017;2;257;https://doi.org/10.21105/joss.00257
+120;Andreas Mayer;Noisyopt: A Python library for optimizing noisy functions.;2017;2;258;https://doi.org/10.21105/joss.00258
+121;Dominique Makowski, Léo Dutriaux;Neuropsydia.py: A Python Module for Creating Experiments, Tasks and Questionnaires;2017;Tasks and Questionnaires. Journal of Open Source Software;259;https://doi.org/10.21105/joss.00259
+122;Rory Nolan, Sergi Padilla-Parra;filesstrings: An R package for file and string manipulation;2017;2;260;https://doi.org/10.21105/joss.00260
+123;Roger A Light;Mosquitto: server and client implementation of the MQTT protocol;2017;2;265;https://doi.org/10.21105/joss.00265
+124;Danny Hermes;Helper for Bézier Curves, Triangles, and Higher Order Objects;2017;Triangles;267;https://doi.org/10.21105/joss.00267
+125;Daniel Standage, Ali Aliyari, Lisa J. Cohen, Michael R. Crusoe, Tim Head, Luiz Irber, Shannon EK Joslin, N. B. Kingsley, Kevin D. Murray, Russell Neches, Camille Scott, Ryan Shean, Sascha Steinbiss, Cait Sydney, C. Titus Brown;khmer release v2.1: software for biological sequence analysis;2017;2;272;https://doi.org/10.21105/joss.00272
+126;Sebastian Raschka;BioPandas: Working with molecular structures in pandas DataFrames;2017;2;279;https://doi.org/10.21105/joss.00279
+127;Pi-Yueh Chuang, Lorena A. Barba;AmgXWrapper: An interface between PETSc and the NVIDIA AmgX library;2017;2;280;https://doi.org/10.21105/joss.00280
+128;Alexander Bock, Emil Axelsson, Karl Bladin, Jonathas Costa, Gene Payne, Matthew Territo, Joakim Kilby, Masha Kuznetsova, Carter Emmart, Anders Ynnerman;OpenSpace: An open-source astrovisualization framework;2017;2;281;https://doi.org/10.21105/joss.00281
+129;Bede Constantinides, David L. Robertson;Kindel: indel-aware consensus for nucleotide sequence alignments;2017;2;282;https://doi.org/10.21105/joss.00282
+130;Lucas A. Wilson, John M. Fonner, Jason Allison, Oscar Esteban, Harry Kenya, Marshall Lerner;Launcher: A simple tool for executing high throughput computing workloads;2017;2;289;https://doi.org/10.21105/joss.00289
+131;Daniele De Vecchi, Fabio Dell’Acqua, Daniel Aurelio Galeazzo;CLOOPSy - Copernicus Land cOver crOwdsourcing Platform for Sentinel-based mapping;2017;2;291;https://doi.org/10.21105/joss.00291
+132;Bennett Kleinberg, Maximilian Mozes;Web-based text anonymization with Node.js: Introducing NETANOS (Named entity-based Text Anonymization for Open Science);2017;2;293;https://doi.org/10.21105/joss.00293
+133;Nima S. Hejazi, Weixin Cai, Alan E. Hubbard;biotmle: Targeted Learning for Biomarker Discovery;2017;2;295;https://doi.org/10.21105/joss.00295
+134;Taylor B Arnold;kerasR: R Interface to the Keras Deep Learning Library;2017;2;296;https://doi.org/10.21105/joss.00296
+135;Alexander Lindsay, Kathryn Huff;Moltres: finite element based simulation of molten salt reactors;2018;3;298;https://doi.org/10.21105/joss.00298
+136;Jason K. Moore, Antonie van den Bogert;opty: Software for trajectory optimization and parameter identification using direct collocation;2018;3;300;https://doi.org/10.21105/joss.00300
+137;Anush Krishnan, Olivier Mesnard, Lorena A. Barba;cuIBM: a GPU-based immersed boundary method code;2017;2;301;https://doi.org/10.21105/joss.00301
+138;Mark Padgham, Robin Lovelace, Maëlle Salmon, Bob Rudis;osmdata;2017;2;305;https://doi.org/10.21105/joss.00305
+139;Natalia C. Clementi, Gilbert Forsyth, Christopher D. Cooper, Lorena A. Barba;PyGBe-LSPR: Python and GPU Boundary-integral solver for electrostatics;2017;2;306;https://doi.org/10.21105/joss.00306
+140;Edmund Noel Dawe, Piti Ongmongkolkul, Giordon Stark;root_numpy: The interface between ROOT and NumPy;2017;2;307;https://doi.org/10.21105/joss.00307
+141;Lincoln A. Mullen, Jordan Bratt;USAboundaries: Historical and Contemporary Boundaries of the United States of America;2018;3;314;https://doi.org/10.21105/joss.00314
+142;Simon J. van Heeringen;genomepy: download genomes the easy way;2017;2;320;https://doi.org/10.21105/joss.00320
+143;Sepand Haghighi;Pyrgg: Python Random Graph Generator;2017;2;331;https://doi.org/10.21105/joss.00331
+144;Konstantin Stadler;The country converter coco - a Python package for converting country names between different classification schemes;2017;2;332;https://doi.org/10.21105/joss.00332
+145;Maëlle Salmon, Sreekanth Vakacherla, Carles Milà, Julian D. Marshall, Cathryn Tonne;rtimicropem: an R package supporting the analysis of RTI MicroPEM output files;2017;2;333;https://doi.org/10.21105/joss.00333
+146;Mathew W. McLean;RefManageR: Import and Manage BibTeX and BibLaTeX References in R;2017;2;338;https://doi.org/10.21105/joss.00338
+147;P James Joyce;Lcopt - An interactive tool for creating fully parameterised Life Cycle Assessment (LCA) foreground models;2017;2;339;https://doi.org/10.21105/joss.00339
+148;Ashlee N. Ford Versypt, Grace K. Harrell, Alexandra N. McPeak;ACEInhibPKPD: An open-source MATLAB app for a pharmacokinetic/pharmacodynamic model of ACE inhibition;2017;2;340;https://doi.org/10.21105/joss.00340
+149;Francesco Strozzi, Raoul Jean Pierre Bonnal;Pipengine: an ultra light YAML-based pipeline execution engine;2017;2;341;https://doi.org/10.21105/joss.00341
+150;Thomas Cokelaer, Juergen Hasch;'Spectrum': Spectral Analysis in Python;2017;2;348;https://doi.org/10.21105/joss.00348
+151;Marcin Wojdyr;UglyMol: a WebGL macromolecular viewer focused on the electron density;2017;2;350;https://doi.org/10.21105/joss.00350
+152;Juanjo Bazán, Oscar Gonzalez-Recio;Nimbus: a Ruby gem to implement Random Forest algorithms in a genomic selection context;2017;2;351;https://doi.org/10.21105/joss.00351
+153;Thomas Cokelaer, Dimitri Desvillechabrol, Rachel Legendre, Mélissa Cardon;'Sequana': a Set of Snakemake NGS pipelines;2017;2;352;https://doi.org/10.21105/joss.00352
+154;Sebastiano Ferraris, Dzhoshkun Ismail Shakir, Johannes Van Der Merwe, Willy Gsell, Jan Deprest, Tom Vercauteren;Bruker2nifti: Magnetic Resonance Images converter from Bruker ParaVision to Nifti format;2017;2;354;https://doi.org/10.21105/joss.00354
+155;Nicholas Tierney;visdat: Visualising Whole Data Frames;2017;2;355;https://doi.org/10.21105/joss.00355
+156;Adrian M. Price-Whelan, Daniel Foreman-Mackey;schwimmbad: A uniform interface to parallel processing pools in Python;2017;2;357;https://doi.org/10.21105/joss.00357
+157;Alicia N Schep, Sarah K Kummerfeld;iheatmapr: Interactive complex heatmaps in R;2017;2;359;https://doi.org/10.21105/joss.00359
+158;James Hiebert, Alex J. Cannon, Trevor Murdock, Stephen Sobie, Arelia Werner;ClimDown: Climate Downscaling in R;2018;3;360;https://doi.org/10.21105/joss.00360
+159;Danilo Freire, Robert Myles McDonnell;prisonbrief: An R package that returns tidy data from the World Prison Brief website;2018;3;361;https://doi.org/10.21105/joss.00361
+160;Rohan Dandage, Kausik Chakraborty;dms2dfe: Comprehensive Workflow for Analysis of Deep Mutational Scanning Data;2017;2;362;https://doi.org/10.21105/joss.00362
+161;Philipp S Sommer;The psyplot interactive visualization framework;2017;2;363;https://doi.org/10.21105/joss.00363
+162;Conrad Sanderson, Ryan Curtin;gmm_diag and gmm_full: C++ classes for multi-threaded Gaussian mixture models and Expectation-Maximisation;2017;2;365;https://doi.org/10.21105/joss.00365
+163;Tanner C. Hobson, Mathieu Doucet, Ricardo M. Ferraz Leal;Django Remote Submission;2017;2;366;https://doi.org/10.21105/joss.00366
+164;Marco van Hulten;ComPlot: Comparison Plotter to visually evaluate ocean model simulations;2017;2;368;https://doi.org/10.21105/joss.00368
+165;Benjamin J. Morgan;bsym: A basic symmetry module;2017;2;370;https://doi.org/10.21105/joss.00370
+166;Gabriele Rovigatti;Production Function Estimation in R: The prodest Package;2017;2;371;https://doi.org/10.21105/joss.00371
+167;Sebastien Binet, Bastian Wieck, David Blyth, Emmanuel Busato, Michaël Ughetto, Peter Waller;Go-HEP: libraries for High Energy Physics analyses in Go;2017;2;372;https://doi.org/10.21105/joss.00372
+168;Shane J Latham;array_split: Multi-dimensional array partitioning;2017;2;373;https://doi.org/10.21105/joss.00373
+169;Jakob Bossek;mcMST: A Toolbox for the Multi-Criteria Minimum Spanning Tree Problem;2017;2;374;https://doi.org/10.21105/joss.00374
+170;Pradeep Reddy Raamana, Stephen C. Strother;Histogram-weighted Networks for Feature Extraction, Connectivity and Advanced Analysis in Neuroscience;2017;Connectivity and Advanced Analysis in Neuroscience. Journal of Open Source Software;380;https://doi.org/10.21105/joss.00380
+171;Pradeep Reddy Raamana, Stephen C. Strother;Python class defining a machine learning dataset ensuring key-based correspondence and maintaining integrity;2017;2;382;https://doi.org/10.21105/joss.00382
+172;Sara Mahar, Matthew Bellis;hmis: A python tool to visualize and analyze HMIS data;2017;2;384;https://doi.org/10.21105/joss.00384
+173;Adrian M. Price-Whelan;Gala: A Python package for galactic dynamics;2017;2;388;https://doi.org/10.21105/joss.00388
+174;Benjamin W. L. Margolis;SimuPy: A Python framework for modeling and simulating dynamical systems;2017;2;396;https://doi.org/10.21105/joss.00396
+175;Ben Lauwens;ResumableFunctions: C# sharp style generators for Julia.;2017;2;400;https://doi.org/10.21105/joss.00400
+176;Travis Kessler, John Hunter Mack;ECNet: Large scale machine learning projects for fuel property prediction;2017;2;401;https://doi.org/10.21105/joss.00401
+177;Michael Kane;bittrex: An R client for the Bittrex Crypto-Currency Exchange;2017;2;402;https://doi.org/10.21105/joss.00402
+178;Yuxuan Zhang, Jean Bilheux;ImagingReso: A Tool for Neutron Resonance Imaging;2017;2;407;https://doi.org/10.21105/joss.00407
+179;Andrew P Smith;UKCensusAPI: python and R interfaces to the nomisweb UK census data API;2017;2;408;https://doi.org/10.21105/joss.00408
+180;Adam H Sparks, Mark Padgham, Hugh Parsonage, Keith Pembleton;bomrang: Fetch Australian Government Bureau of Meteorology Data in R;2017;2;411;https://doi.org/10.21105/joss.00411
+181;Philip Stegmaier, Alexander Kel, Edgar Wingender;geneXplainR: An R interface for the geneXplain platform;2017;2;412;https://doi.org/10.21105/joss.00412
+182;Haytham M. Fayek;MatDL: A Lightweight Deep Learning Library in MATLAB;2017;2;413;https://doi.org/10.21105/joss.00413
+183;Tim Folsom, VP Nagraj;hei: Calculate Healthy Eating Index (HEI) Scores;2017;2;417;https://doi.org/10.21105/joss.00417
+184;Bérénice Batut, Björn Grüning;ENASearch: A Python library for interacting with ENA's API;2017;Journal of Open Source Software;418;https://doi.org/10.21105/joss.00418
+185;Andrew C. Heusser, Paxton C. Fitzpatrick, Campbell E. Field, Kirsten Ziman, Jeremy R. Manning;Quail: A Python toolbox for analyzing and plotting free recall data;2017;2;424;https://doi.org/10.21105/joss.00424
+186;Paul B. Govan;BayesianNetwork: Interactive Bayesian Network Modeling and Analysis;2018;3;425;https://doi.org/10.21105/joss.00425
+187;Vanessa Sochat;Singularity Registry: Open Source Registry for Singularity Images;2017;2;426;https://doi.org/10.21105/joss.00426
+188;Carlos X. Hernández, Vijay S. Pande;MDEntropy: Information-Theoretic Analyses for Molecular Dynamics;2017;2;427;https://doi.org/10.21105/joss.00427
+189;Nuno Fachada, Agostinho C. Rosa;micompm: A MATLAB/Octave toolbox for multivariate independent comparison of observations;2018;3;430;https://doi.org/10.21105/joss.00430
+190;José Jiménez, Josep Ginebra;pyGPGO: Bayesian Optimization for Python;2017;2;431;https://doi.org/10.21105/joss.00431
+191;Marcus D Bloice, Christof Stocker, Andreas Holzinger;Augmentor: An Image Augmentation Library for Machine Learning;2017;2;432;https://doi.org/10.21105/joss.00432
+192;Lester James V. Miranda;PySwarms: a research toolkit for Particle Swarm Optimization in Python;2018;3;433;https://doi.org/10.21105/joss.00433
+193;Shadia Mikhael, Calum Gray;Masks2Metrics (M2M): A Matlab Toolbox for Gold Standard Morphometrics;2018;3;436;https://doi.org/10.21105/joss.00436
+194;Ilja Honkonen;High-Dimensional Integrator;2017;2;437;https://doi.org/10.21105/joss.00437
+195;Jiao Y. Y. Lin, Fahima Islam, Max Kresh;Multiphonon: Phonon Density of States tools for Inelastic Neutron Scattering Powder Data;2018;3;440;https://doi.org/10.21105/joss.00440
+196;Philippe Renard;Hytool: an open source matlab toolbox for the interpretation of hydraulic tests using analytical solutions;2017;2;441;https://doi.org/10.21105/joss.00441
+197;Olivier Delestre, Frédéric Darboux, François James, Carine Lucas, Christian Laguerre, Stéphane Cordier;FullSWOF: Full Shallow-Water equations for Overland Flow;2017;2;448;https://doi.org/10.21105/joss.00448
+198;Henry Senyondo, Benjamin D. Morris, Akash Goel, Andrew Zhang, Akshay Narasimha, Shivam Negi, David J. Harris, Deborah Gertrude Digges, Kapil Kumar, Amritanshu Jain, Kunal Pal, Kevinkumar Amipara, Ethan P. White;Retriever: Data Retrieval Tool;2017;2;451;https://doi.org/10.21105/joss.00451
+199;Carl Boettiger;Generating CodeMeta Metadata for R Packages;2017;2;454;https://doi.org/10.21105/joss.00454
+200;Sachin Chitta, Eitan Marder-Eppstein, Wim Meeussen, Vijay Pradeep, Adolfo Rodríguez Tsouroukdissian, Jonathan Bohren, David Coleman, Bence Magyar, Gennaro Raiola, Mathias Lüdtke, Enrique Fernandez Perdomo;ros_control: A generic and simple control framework for ROS;2017;2;456;https://doi.org/10.21105/joss.00456
+201;Ai Okada, Kenichi Chiba, Hiroko Tanaka, Satoru Miyano, Yuichi Shiraishi;A framework for generating interactive reports for cancer genome analysis;2017;2;457;https://doi.org/10.21105/joss.00457
+202;George Datseris;DynamicalBilliards.jl: An easy-to-use, modular and extendable Julia package for Dynamical Billiard systems in two dimensions.;2017;modular and extendable Julia package for Dynamical Billiard systems in two dimensions.. Journal of Open Source Software;458;https://doi.org/10.21105/joss.00458
+203;Nathan Sheffield, VP Nagraj, Vince Reuter;simpleCache: R caching for reproducible, distributed, large-scale projects;2018;distributed;463;https://doi.org/10.21105/joss.00463
+204;Markus J Ankenbrand, Simon Pfaff, Niklas Terhoeven, Musga Qureischi, Maik Gündel, Clemens L. Weiß, Thomas Hackl, Frank Förster;chloroExtractor: extraction and assembly of the chloroplast genome from whole genome shotgun data;2018;3;464;https://doi.org/10.21105/joss.00464
+205;Daniel Suess, Milan Holzäpfel;mpnum: A matrix product representation library for Python;2017;2;465;https://doi.org/10.21105/joss.00465
+206;Dominique Makowski;The psycho Package: an Efficient and Publishing-Oriented Workflow for Psychological Science;2018;3;470;https://doi.org/10.21105/joss.00470
+207;Mark Padgham, Richard Ellison;bikedata;2017;2;471;https://doi.org/10.21105/joss.00471
+208;Anton Rodenhauser, Wilson W Good, Brian Zenger, Jess Tate, Kedar Aras, Brett Burton, Rob S. MacLeod;PFEIFER: Preprocessing Framework for Electrograms Intermittently Fiducialized from Experimental Recordings;2018;3;472;https://doi.org/10.21105/joss.00472
+209;Steve Lockley, Claudio Benghi, Martin Černý;Xbim.Essentials: a library for interoperable building information applications;2017;2;473;https://doi.org/10.21105/joss.00473
+210;David J Harris;An easy-to-use p5.js 3D object picker for visual artists;2017;2;475;https://doi.org/10.21105/joss.00475
+211;James P. Howard, II;Phonetic Algorithms in R;2018;3;480;https://doi.org/10.21105/joss.00480
+212;Pablo G Garay, Jorge A Vila, Osvaldo A Martin;CheSweet: An application to predict glycan’s chemicals shifts;2018;3;488;https://doi.org/10.21105/joss.00488
+213;Parker Owan, Cameron Devine, W. Tony Piaskowy;CoreRobotics: An object-oriented C++ library with cross-language wrappers for cross-platform robot control;2018;3;489;https://doi.org/10.21105/joss.00489
+214;Björn Dahlgren;pyodesys: Straightforward numerical integration of ODE systems from Python;2018;3;490;https://doi.org/10.21105/joss.00490
+215;Pamphile T. Roy, Sophie Ricci, Romain Dupuis, Robin Campet, Jean-Christophe Jouhaud, Cyril Fournier;BATMAN: Statistical analysis for expensive computer codes made easy;2018;3;493;https://doi.org/10.21105/joss.00493
+216;David J. Mulryne, John W. Ronayne;PyTransport: A Python package for the calculation of inflationary correlation functions;2018;3;494;https://doi.org/10.21105/joss.00494
+217;René L. Warren;Visualizing genome synteny with xmatchview;2018;3;497;https://doi.org/10.21105/joss.00497
+218;Jeongseok Lee, Michael X. Grey, Sehoon Ha, Tobias Kunz, Sumit Jain, Yuting Ye, Siddhartha S. Srinivasa, Mike Stilman, C. Karen Liu;DART: Dynamic Animation and Robotics Toolkit;2018;3;500;https://doi.org/10.21105/joss.00500
+219;William D McGinnis, Chapman Siu, Andre S, Hanyu Huang;Category Encoders: a scikit-learn-contrib package of transformers for encoding categorical data;2018;3;501;https://doi.org/10.21105/joss.00501
+220;Roderick Bovee, Nick Greenfield;Finch: a tool adding dynamic abundance filtering to genomic MinHashing;2018;3;505;https://doi.org/10.21105/joss.00505
+221;Kevin M Moerman;GIBBON: The Geometry and Image-Based Bioengineering add-On;2018;3;506;https://doi.org/10.21105/joss.00506
+222;Sam Albers;tidyhydat: Extract and Tidy Canadian Hydrometric Data;2017;2;511;https://doi.org/10.21105/joss.00511
+223;Jeremy R. Coyle, Nima S. Hejazi;origami: A Generalized Framework for Cross-Validation in R;2018;3;512;https://doi.org/10.21105/joss.00512
+224;Sinan Shi, David Pérez-Suárez, Steve Harris, Niall MacCallum, David Brealey, Mervyn Singer, James Hetherington;Critical care data processing tools;2017;2;513;https://doi.org/10.21105/joss.00513
+225;Stephanie J. Spielman;phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses;2018;3;514;https://doi.org/10.21105/joss.00514
+226;Benjamin Allévius;scanstatistics: space-time anomaly detection using scan statistics;2018;3;515;https://doi.org/10.21105/joss.00515
+227;Robert Gieseke, Sven N Willner, Matthias Mengel;Pymagicc: A Python wrapper for the simple climate model MAGICC;2018;3;516;https://doi.org/10.21105/joss.00516
+228;R Daniel Kortschak;arrgh: a Go interface to the OpenCPU R server system;2018;3;517;https://doi.org/10.21105/joss.00517
+229;Vanessa Sochat;The Experiment Factory: Reproducible Experiment Containers;2018;3;521;https://doi.org/10.21105/joss.00521
+230;Taha Zaghdoudi;ivporbit:An R package to estimate the instrumental variables probit model;2018;3;523;https://doi.org/10.21105/joss.00523
+231;Niklas Terhoeven, Jörg Schultz, Thomas Hackl;reper: Genome-wide identification, classification and quantification of repetitive elements without an assembled genome;2018;classification and quantification of repetitive elements without an assembled genome. Journal of Open Source Software;527;https://doi.org/10.21105/joss.00527
+232;Jakob Bossek;grapherator: A Modular Multi-Step Graph Generator;2018;3;528;https://doi.org/10.21105/joss.00528
+233;Nicola Demo, Marco Tezzele, Gianluigi Rozza;PyDMD: Python Dynamic Mode Decomposition;2018;3;530;https://doi.org/10.21105/joss.00530
+234;Björn Dahlgren;pyneqsys: Solve symbolically defined systems of non-linear equations numerically;2018;3;531;https://doi.org/10.21105/joss.00531
+235;Matthew Pitkin;psrqpy: a python interface for querying the ATNF pulsar catalogue;2018;3;538;https://doi.org/10.21105/joss.00538
+236;Sébastien Boisgérault;Bitstream – Binary Data for Humans;2018;3;541;https://doi.org/10.21105/joss.00541
+237;Joshua T Karpel;IDESolver: a general purpose integro-differential equation solver;2018;3;542;https://doi.org/10.21105/joss.00542
+238;Aleksey Bilogur;Missingno: a missing data visualization suite;2018;3;547;https://doi.org/10.21105/joss.00547
+239;Robert Reinecke;G³M-f a global gradient-based groundwater modelling framwork;2018;3;548;https://doi.org/10.21105/joss.00548
+240;William Michael Landau;The drake R package: a pipeline toolkit for reproducibility and high-performance computing;2018;3;550;https://doi.org/10.21105/joss.00550
+241;Matilda Åslin, Monika Brandt, Johan Dahlberg;CheckQC: Quick quality control of Illumina sequencing runs;2018;3;556;https://doi.org/10.21105/joss.00556
+242;Julia Wrobel;register: Registration for Exponential Family Functional Data;2018;3;557;https://doi.org/10.21105/joss.00557
+243;Pi-Yueh Chuang, Olivier Mesnard, Anush Krishnan, Lorena A. Barba;PetIBM: toolbox and applications of the immersed-boundary method on distributed-memory architectures;2018;3;558;https://doi.org/10.21105/joss.00558
+244;Björn Dahlgren;ChemPy: A package useful for chemistry written in Python;2018;3;565;https://doi.org/10.21105/joss.00565
+245;Chi-Lin Yu, Ching-Fan Sheu;EFAshiny: An User-Friendly Shiny Application for Exploratory Factor Analysis;2018;3;567;https://doi.org/10.21105/joss.00567
+246;Pierre Morel;Gramm: grammar of graphics plotting in Matlab;2018;3;568;https://doi.org/10.21105/joss.00568
+247;Ian H. Bell, Bradley Alpert, Lucas Bouck;ChebTools: C++11 (and Python) tools for working with Chebyshev expansions;2018;3;569;https://doi.org/10.21105/joss.00569
+248;Stefanie E. LaZerte, Sam Albers;weathercan: Download and format weather data from Environment and Climate Change Canada;2018;3;571;https://doi.org/10.21105/joss.00571
+249;Peter Laurinec;TSrepr R package: Time Series Representations;2018;3;577;https://doi.org/10.21105/joss.00577
+250;Michael Hirsch;PyMap3D: 3-D coordinate conversions for terrestrial and geospace environments;2018;3;580;https://doi.org/10.21105/joss.00580
+251;James Tocknell;h5preserve: Thin wrapper around h5py, inspired by camel;2018;inspired by camel. Journal of Open Source Software;581;https://doi.org/10.21105/joss.00581
+252;John Mount, Nina Zumel;The vtreat R package: a statistically sound data processor for predictive modeling;2018;3;584;https://doi.org/10.21105/joss.00584
+253;Donald E. Willcox, Michael Zingale;pynucastro: an interface to nuclear reaction rates and code generator for reaction network equations;2018;3;588;https://doi.org/10.21105/joss.00588
+254;Edward W. Doddridge, Alexey Radul;Aronnax: An idealised isopycnal ocean model;2018;3;592;https://doi.org/10.21105/joss.00592
+255;Ignacio Ferrés, Gregorio Iraola;Phylen: automatic phylogenetic reconstruction using the EggNOG database;2018;3;593;https://doi.org/10.21105/joss.00593
+256;Michael Hucka;Nostril: A nonsense string evaluator written in Python;2018;3;596;https://doi.org/10.21105/joss.00596
+257;Sander Wahls, Shrinivas Chimmalgi, Peter J Prins;FNFT: A Software Library for Computing Nonlinear Fourier Transforms;2018;3;597;https://doi.org/10.21105/joss.00597
+258;George Datseris;DynamicalSystems.jl: A Julia software library for chaos and nonlinear dynamics;2018;3;598;https://doi.org/10.21105/joss.00598
+259;Mike Innes;Flux: Elegant machine learning with Julia;2018;3;602;https://doi.org/10.21105/joss.00602
+260;Andreas Bender, Alexander Bauer;coalitions: Coalition probabilities in multi-party democracies;2018;3;606;https://doi.org/10.21105/joss.00606
+261;Sergio Ibarra-Espinosa, Daniel Schuch, Edmilson Dias de Freitas;eixport: An R package to export emissions to atmospheric models;2018;3;607;https://doi.org/10.21105/joss.00607
+262;Giuseppe Cardellini, Chris Mutel;Temporalis: an open source software for dynamic LCA;2018;3;612;https://doi.org/10.21105/joss.00612
+263;Grega Vrbančič, Lucija Brezočnik, Uroš Mlakar, Dušan Fister, Iztok Fister Jr.;NiaPy: Python microframework for building nature-inspired algorithms;2018;3;613;https://doi.org/10.21105/joss.00613
+264;Patrick K Mogensen, Asbjørn N Riseth;Optim: A mathematical optimization package for Julia;2018;3;615;https://doi.org/10.21105/joss.00615
+265;Daniel Amsel, André Billion, Andreas Vilcinskas, Frank Förster;microPIECE - microRNA pipeline enhanced by CLIP experiments;2018;3;616;https://doi.org/10.21105/joss.00616
+266;Louise A. Dennis;The MCAPL Framework including the Agent Infrastructure Layer an Agent Java Pathfinder;2018;3;617;https://doi.org/10.21105/joss.00617
+267;Dave Hudak, Doug Johnson, Alan Chalker, Jeremy Nicklas, Eric Franz, Trey Dockendorf, Brian L. McMichael;Open OnDemand: A web-based client portal for HPC centers;2018;3;622;https://doi.org/10.21105/joss.00622
+268;Joe Thorley;checkr: An R package for Assertive Programming;2018;3;624;https://doi.org/10.21105/joss.00624
+269;Konstantinos Vantas;hydroscoper: R interface to the Greek National Data Bank for Hydrological and Meteorological Information;2018;3;625;https://doi.org/10.21105/joss.00625
+270;Andrew P Smith;humanleague: a C++ microsynthesis package with R and python interfaces;2018;3;629;https://doi.org/10.21105/joss.00629
+271;Ryan C Brown, Joshua Moser;HSImage: A Python and C++ library to allow interaction with ENVI-BIL hyperspectral images;2018;3;630;https://doi.org/10.21105/joss.00630
+272;Rory Nolan, Sergi Padilla-Parra;ijtiff: An R package providing TIFF I/O for ImageJ users;2018;3;633;https://doi.org/10.21105/joss.00633
+273;Sebastian Raschka;MLxtend: Providing machine learning and data science utilities and extensions to Python’s scientific computing stack;2018;3;638;https://doi.org/10.21105/joss.00638
+274;Mordechai (Moti) Ben-Ari;LearnSAT: A SAT Solver for Education;2018;3;639;https://doi.org/10.21105/joss.00639
+275;Casey Youngflesh;MCMCvis: Tools to Visualize, Manipulate, and Summarize MCMC Output;2018;Manipulate;640;https://doi.org/10.21105/joss.00640
+276;Alessandro Gasparini;comorbidity: An R package for computing comorbidity scores;2018;3;648;https://doi.org/10.21105/joss.00648
+277;Caley Finn;OpenEPSim: An Open Exclusion Process Simulation Tool;2018;3;650;https://doi.org/10.21105/joss.00650
+278;Michael Hucka;Spiral: splitters for identifiers in source code files;2018;3;653;https://doi.org/10.21105/joss.00653
+279;Lincoln A. Mullen, Kenneth Benoit, Os Keyes, Dmitry Selivanov, Jeffrey Arnold;Fast, Consistent Tokenization of Natural Language Text;2018;Consistent Tokenization of Natural Language Text. Journal of Open Source Software;655;https://doi.org/10.21105/joss.00655
+280;Yuan Tang;autoplotly: An R package for automatic generation of interactive visualizations for statistical results;2018;3;657;https://doi.org/10.21105/joss.00657
+281;Brian E. J. Rose;CLIMLAB: a Python toolkit for interactive, process-oriented climate modeling;2018;process-oriented climate modeling. Journal of Open Source Software;659;https://doi.org/10.21105/joss.00659
+282;Amelia Ortiz-Gil, Jordi Burguet-Castell;Mapelia and friends: create 3D models from maps;2018;3;660;https://doi.org/10.21105/joss.00660
+283;Nicola Demo, Marco Tezzele, Gianluigi Rozza;EZyRB: Easy Reduced Basis method;2018;3;661;https://doi.org/10.21105/joss.00661
+284;Arjun Chennu;MicroBenthos: a modeling framework for microbial benthic ecology;2018;3;674;https://doi.org/10.21105/joss.00674
+285;Mikkel Meyer Andersen;malan: MAle Lineage ANalysis;2018;3;684;https://doi.org/10.21105/joss.00684
+286;Jasper Ginn;qualtRics: retrieve survey data using the Qualtrics API;2018;3;690;https://doi.org/10.21105/joss.00690
+287;Boaz Blankrot, Clemens Heitzinger;ParticleScattering: Solving and optimizing multiple-scattering problems in Julia;2018;3;691;https://doi.org/10.21105/joss.00691
+288;Júlio Hoffimann1;GeoStats.jl – High-performance geostatistics in Julia;2018;3;692;https://doi.org/10.21105/joss.00692
+289;Jacob Anhøj;qicharts2: Quality Improvement Charts for R;2018;3;699;https://doi.org/10.21105/joss.00699
+290;Sebastian S Zeki;EndoMineR for the extraction of endoscopic and associated pathology data from medical reports;2018;3;701;https://doi.org/10.21105/joss.00701
+291;Karl Wette, Reinhard Prix, David Keitel, Matthew Pitkin, Christoph Dreissigacker, John T. Whelan, Paola Leaci;OctApps: a library of Octave functions for continuous gravitational-wave data analysis;2018;3;707;https://doi.org/10.21105/joss.00707
+292;Shahriar Iravanian;fib-tf: A TensorFlow-based Cardiac Electrophysiology Simulator;2018;3;719;https://doi.org/10.21105/joss.00719
+293;William D Pearse, Scott A Chamberlain;Suppdata: Downloading Supplementary Data from Published Manuscripts;2018;3;721;https://doi.org/10.21105/joss.00721
+294;Sepand Haghighi, Masoomeh Jasemi, Shaahin Hessabi, Alireza Zolanvari;PyCM: Multiclass confusion matrix library in Python;2018;3;729;https://doi.org/10.21105/joss.00729
+295;Stephen D. Turner;qqman: an R package for visualizing GWAS results using Q-Q and manhattan plots;2018;3;731;https://doi.org/10.21105/joss.00731
+296;Ryan G. James, Christopher J. Ellison, James P. Crutchfield;dit: a Python package for discrete information theory;2018;3;738;https://doi.org/10.21105/joss.00738
+297;James Bourbeau, Zigfried Hampel-Arias;PyUnfold: A Python package for iterative unfolding;2018;3;741;https://doi.org/10.21105/joss.00741
+298;Richard Izzo, David Steinman, Simone Manini, Luca Antiga;The Vascular Modeling Toolkit: A Python Library for the Analysis of Tubular Structures in Medical Images;2018;3;745;https://doi.org/10.21105/joss.00745
+299;Mikkel Meyer Andersen;Discrete Laplace mixture model with applications in forensic genetics;2018;3;748;https://doi.org/10.21105/joss.00748
+300;Hajk-Georg Drost;Philentropy: Information Theory and Distance Quantification with R;2018;3;765;https://doi.org/10.21105/joss.00765
+301;Adam J Jackson, Alex M Ganose, Anna Regoutz, Russell G. Egdell, David O Scanlon;Galore: Broadening and weighting for simulation of photoelectron spectroscopy;2018;3;773;https://doi.org/10.21105/joss.00773
