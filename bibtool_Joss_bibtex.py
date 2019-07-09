@@ -1,6 +1,7 @@
-# name:    testing.py
+# name:    bibtool_Joss_bibtex.py
 # author:  nbehrnd@yahoo.com
 # date:    2019-07-08 (YYYY-MM-DD)
+# edit:    2019-07-09 (YYYY-MM-DD)
 """ bibTeX / ASCII report about publications accepted for JOSS
 
 Each publication accepted by JOSS [1] is mirrored on [2] by a dedicated
@@ -24,7 +25,7 @@ which may be a particular problem while dealing with literature references
 anyway.
 
 [1] https://joss.theoj.org/
-[2] https://github.com/openjournals/joss-papers 
+[2] https://github.com/openjournals/joss-papers
 
 (c) Norwid Behrnd, 2019, GPGL v 3.
 """
@@ -72,7 +73,10 @@ def provide_clearance():
 def open_archive():
     """ retrieve the .html used for the data extraction """
     archive = zipfile.ZipFile(used_archive)
-    archive.extractall()
+    content_list = archive.infolist()
+    for content in content_list:
+        if fnmatch.fnmatch(content.filename, "*.html"):
+            archive.extract(content.filename)
     archive.close()
 
     os.chdir("joss-papers-master")
@@ -189,6 +193,7 @@ def extract_data():
                       str(pages) + str(";") + str(list_doi)
         list_register.append(list_export)
         key += 1
+
 
 def reporting():
     """ generate the permanent record files """

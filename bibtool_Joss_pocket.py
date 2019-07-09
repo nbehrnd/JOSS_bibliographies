@@ -1,6 +1,7 @@
-# name:   bibtool_JOSS_pocket.py
+# name:   bibtool_Joss_pocket.py
 # author: nbehrnd@yahoo.com
 # date:   2019-07-08 (YYYY-MM-DD)
+# edit    2019-07-09 (YYYY-MM-DD)
 """ provision of a short pocket list about accepted publications in JOSS
 
 Accepted publications for JOSS [1] may be found mirrored on [2].  After
@@ -11,14 +12,14 @@ on its .html and provide this information both as a semicolon-separated
 
 Written for the CLI of Python3 and to be called in the pattern of
 
-python bibtool_JOSS_pocket.py [joss-papers-master.zip]
+python bibtool_Joss_pocket.py [joss-papers-master.zip]
 
 with the cloned archive as sole -- and mandatory -- parameter.  Because
 of the announced phasing-out of Python2, the script /does not/ consider
 this legacy branch.  Indeed, the script will not work with Python2.
 
 [1] https://joss.theoj.org/
-[2] https://github.com/openjournals/joss-papers 
+[2] https://github.com/openjournals/joss-papers
 
 (c) Norwid Behrnd, 2019, GPGL v 3.
 """
@@ -45,7 +46,7 @@ try:
 
 except:
     print("")
-    print("Expected use: python bibtool_JOSS_pocket.py archive.zip")
+    print("Expected use: python bibtool_Joss_pocket.py archive.zip")
     print("Without change of any data, the script closes now.")
     print("")
     sys.exit()
@@ -65,7 +66,10 @@ def provide_clearance():
 def open_archive():
     """ retrieve the .html used for the data extraction """
     archive = zipfile.ZipFile(used_archive)
-    archive.extractall()
+    content_list = archive.infolist()
+    for content in content_list:
+        if fnmatch.fnmatch(content.filename, "*.html"):
+            archive.extract(content.filename)
     archive.close()
 
     os.chdir("joss-papers-master")
@@ -126,12 +130,12 @@ def space_cleaning():
 
 
 # action calls
-print("\nScript 'bibtool_JOSS_pocket.py' started.")
+print("\nScript 'bibtool_Joss_pocket.py' started.")
 
 provide_clearance()
 open_archive()
 extract_data()
 space_cleaning()
 
-print("Script 'bibtool_JOSS_pocket.py' completed its task and closes now.\n")
+print("Script 'bibtool_Joss_pocket.py' completed its task and closes now.\n")
 sys.exit()
