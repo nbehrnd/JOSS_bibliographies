@@ -10,8 +10,10 @@ YYYY-MM-DD | key events
              completely.  The relevant data are retrieved from .html
              as source files which eventually are removed, like all
              other intermediate data; yielding simple .txt, .csv or
-             .bib for futher processing.
+             .bib for further processing.
 ---------------------------------------------------------------------
 2019-07-09 | While accessing the corresponding .zip archive, both 
              scripts now retrieve only the source files read-out,
-             i.e. only the intermediate .html.  
+             i.e. only the .html (bibtool_Joss_pocket.py), or only
+             the *.crossfile.xml (bibtool_Joss_bibtex.py).
+ 
