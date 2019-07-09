@@ -62,7 +62,7 @@ except:
 def provide_clearance():
     """ remove possible traces of a previous run by this script """
     for file in os.listdir("."):
-        if fnmatch.fnmatch(file, "pocket_list.*"):
+        if fnmatch.fnmatch(file, "report.*"):
             os.remove(file)
     try:
         shutil.rmtree("joss-papers-master")
@@ -213,24 +213,18 @@ def reporting():
             output = str(entry) + str("\n\n")
             newfile.write(output)
 
-    with open("report.txt", mode="w") as newfile:
-        header = str("key") + str(";") + \
-                 str("list_authors") + str(";") +\
-                 str("title") + str(";") +\
-                 str("year") + str(";") + str("volume") + str(";") +\
-                 str("start page") + str(";") + str("list_doi")
-
+    with open("report.csv", mode="w") as newfile:
         for entry in list_register:
-            output = str(entry) + str("\n")
+            output = str(entry)# + str("\n")
             newfile.write(output)
 
 
 def space_cleaning():
-    """ remove of no longer needed .html, move reporter files """
+    """ remove of no longer needed .xml, move reporter files """
     for file in os.listdir("."):
-        if fnmatch.fnmatch(file, "*.html"):
+        if fnmatch.fnmatch(file, "*.xml"):
             os.remove(file)
-        if fnmatch.fnmatch(file, "pocket_list.*"):
+        if fnmatch.fnmatch(file, "report.*"):
             shutil.move(file, root)
 
     os.chdir(root)
@@ -243,8 +237,8 @@ print("\nScript 'testing.py' started.")
 provide_clearance()
 open_archive()
 extract_data()
+reporting()
+space_cleaning()
 
-# space_cleaning()
-# reporting()
 print("\nScript 'testing.py' completed its task and closes now.\n")
 sys.exit()
