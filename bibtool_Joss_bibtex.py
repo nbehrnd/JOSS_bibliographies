@@ -170,70 +170,10 @@ def extract_data():
         print("test bibtex_authors: {}".format(bibtex_authors))
         
         
-#        for char in str(author_list)[1:-1]:
-#            if char == str("\n"):
-#                bibtex_authors += str(" and ")
-#            else:
-#                bibtex_authors += str(char)
 
-
-#         retrieve the title of the publication, the first entry tagged by h1
-#        tags = soup('h1')
-#        title = str(tags[0].get_text())
-
-#         retrieve the authors of the publication
-#        author_list = soup.find('ul', attrs={'author-list'}).get_text()
-
-#         a) preparation for list_authors:
-#        list_authors = ""
-#        for char in str(author_list)[1:-1]:
-#            if char == str("\n"):
-#                list_authors += str(", ")
-#            else:
-#                list_authors += str(char)
-
-#         b) preparation for the bibTeX export
-#        bibtex_authors = ""
-#        for char in str(author_list)[1:-1]:
-#            if char == str("\n"):
-#                bibtex_authors += str(" and ")
-#            else:
-#                bibtex_authors += str(char)
-
-#         retrieve the DOI of the publication (not the one for SI software)
-#        doi = soup.find_all('span', attrs={'repo'})
-
-#        list_doi = str(doi[-1].get_text())[4:]
-#        bibtex_doi = str(list_doi)[16:]
-
-#         retrieve volume and issue of the publication
-#        pocket = soup.find('small').get_text()
-#        volume_and_issue = pocket.split(", ")[2]
-
-#         issue = str(pocket.split(", ")[2])
-#        volume = str(pocket.split(", ")[2]).split("(")[0]
-
-#         retrieve the starting page.
-#        pages = str(pocket.split(" ")[-2])[:-1]
-
-#         retrieve year of publication
-#        testing = soup.find('small').get_text()
-#        year = str(str(testing).split("(")[1])[:4]
-
-#         retrieve the deposit of the .pdf
-#         pdf_paper = str("https://joss.theoj.org/papers/") + \
-#                     str(list_doi).split("/")[-1] + str("/") + \
-#                     str("10.21105/") + str(list_doi).split("/")[-1] + \
-#                     str(".pdf")
-
-#         retrieve the rooting url about the publication
-#        url = str("https://joss.theoj.org/papers/") + \
-#              str(list_doi).split("/")[-1] + str("/") + \
-#              str("10.21105/") + str(list_doi).split("/")[-1]
-
-#         useful (constant) entries for literature referencers (e.g., zotero)
-#        journal = str("Journal of Open Source Software")
-#        ISSN = str("2475-9066")
+         # useful (constant) entries for literature referencers (e.g., zotero)
+        journal = str("Journal of Open Source Software")
+        ISSN = str("2475-9066")
 
 #        bibtex_export = str('@article{') + str(key) + str(',\n') +\
 #                        str('author = {') + str(bibtex_authors) + str('},\n') +\
