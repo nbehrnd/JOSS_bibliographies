@@ -53,7 +53,7 @@ try:
 
 except:
     print("")
-    print("Expected use: python bibtool_JOSS_pocket.py archive.zip")
+    print("Expected use: python3 bibtool_JOSS_pocket.py archive.zip")
     print("Without change of any data, the script closes now.")
     print("")
     sys.exit()
@@ -107,48 +107,40 @@ def extract_data():
     list_register = []
     key = 1
 
-    for article in article_register[:4]:
+    for article in article_register:
         stone = open(article)
         soup = BeautifulSoup(stone, "lxml")
 
         search_title = soup("titles")
         title = str(search_title[0].get_text())[1:].strip()
-        print("title: {}".format(title))
 
         search_publication_doi = soup("doi")
         publication_doi = str(search_publication_doi[1].get_text()).strip()
-        print("publication_doi: {}".format(publication_doi))
 
         search_pdf_url = soup("item")
         url = str(search_pdf_url[0].get_text())[1:].strip()
-        print("url: {}".format(url))
 
         search_year = soup("year")
         year = str(search_year[0].get_text()).strip()
-        print("year: {}".format(year))
 
         search_volume = soup("journal_volume")
         volume = str(search_volume[0].get_text())[1:].strip()
-        print("volume: {}".format(volume))
 
         search_issue = soup("issue")
         issue = str(search_issue[0].get_text()).strip()
-        print("issue: {}".format(issue))
 
         search_first_page = soup("first_page")
         pages = str(search_first_page[0].get_text()).strip()
-        print("pages: {}".format(pages))
 
         search_authors_given_name = soup("given_name")
         search_authors_surname = soup("surname")
         author_register = []
         for given_name, surname in zip(search_authors_given_name,
                                        search_authors_surname):
-            retain = str(given_name.get_text()) + str(" ") + str(surname.get_text())
+            retain = str(given_name.get_text()) + str(" ") + str(
+                surname.get_text())
             author_register.append(retain)
 
-        print("author_register: {}".format(author_register))
-        
         # a) preparation of list_authors:
         list_authors = ""
         for author in author_register[:-1]:
@@ -157,7 +149,6 @@ def extract_data():
         for author in author_register[-1]:
             retain = str(author)
             list_authors += str(retain)
-        print("test list_authors: {}".format(list_authors))
 
         # b) preparation of bibTeX_authors
         bibtex_authors = ""
@@ -167,11 +158,8 @@ def extract_data():
         for author in author_register[-1]:
             retain = str(author)
             bibtex_authors += str(retain)
-        print("test bibtex_authors: {}".format(bibtex_authors))
-        
-        
 
-         # useful (constant) entries for literature referencers (e.g., zotero)
+        # useful (constant) entries for literature referencers (e.g., zotero)
         journal = str("Journal of Open Source Software")
         ISSN = str("2475-9066")
 
@@ -189,8 +177,6 @@ def extract_data():
                         str('url = {') + str(url) + str('},\n') +\
                         str("}")
         bibtex_register.append(bibtex_export)
-        print("\ntest bibtex_export:\n{}".format(bibtex_export))
-        print("")
 
         # construction of entry for .csv:
         list_export = str(key) + str(";") +\
@@ -200,8 +186,6 @@ def extract_data():
                       str(issue) + str(";") + str(pages) + str(";") +\
                       str("doi: ") + str(publication_doi) + str("\n")
         list_register.append(list_export)
-        print("\ntest list_export:\n{}".format(list_export))
-        print("")
 
         key += 1
 
@@ -212,6 +196,8 @@ def reporting():
         for entry in bibtex_register:
             output = str(entry) + str("\n\n")
             newfile.write(output)
+            print(str(entry))
+            print("")
 
     with open("report.csv", mode="w") as newfile:
         list_header = str("key") + str(";") +\
@@ -221,9 +207,9 @@ def reporting():
                       str("issue") + str(";") + str("first page") + str(";") +\
                       str("publication_doi") + str("\n")
         newfile.write(list_header)
-        
+
         for entry in list_register:
-            output = str(entry)# + str("\n")
+            output = str(entry)  # + str("\n")
             newfile.write(output)
 
 
@@ -249,4 +235,4 @@ reporting()
 space_cleaning()
 
 print("\nScript 'testing.py' completed its task and closes now.\n")
-sys.exit()
+sys.exit(0)
