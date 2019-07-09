@@ -148,6 +148,34 @@ def extract_data():
             author_register.append(retain)
 
         print("author_register: {}".format(author_register))
+        
+        # a) preparation of list_authors:
+        list_authors = ""
+        for author in author_register[:-1]:
+            retain = str(author) + str(", ")
+            list_authors += str(retain)
+        for author in author_register[-1]:
+            retain = str(author)
+            list_authors += str(retain)
+        print("test list_authors: {}".format(list_authors))
+
+        # b) preparation of bibTeX_authors
+        bibtex_authors = ""
+        for author in author_register[:-1]:
+            retain = str(author) + str(" and ")
+            bibtex_authors += str(retain)
+        for author in author_register[-1]:
+            retain = str(author)
+            bibtex_authors += str(retain)
+        print("test bibtex_authors: {}".format(bibtex_authors))
+        
+        
+#        for char in str(author_list)[1:-1]:
+#            if char == str("\n"):
+#                bibtex_authors += str(" and ")
+#            else:
+#                bibtex_authors += str(char)
+
 
 #         retrieve the title of the publication, the first entry tagged by h1
 #        tags = soup('h1')
