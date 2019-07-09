@@ -19,13 +19,12 @@ retirement of `Python2`, as well for the better support of Unicode
 characters.  Both scripts run from the CLI, and expect the `.zip`
 archive in the same folder, e.g.
 
-    python bibtool_Joss_pocket.pt joss-papers-master.zip
+    python bibtool_Joss_pocket.py joss-papers-master.zip
 
-and currently will briefly extract the complete content of the
-archive.  At present (2019-Jun-08), this requires about 0.3 to
-0.4 GB freely accessible space on the hard disk.
+to retrieve the necessary raw data, which is either the `.html`
+or `.crossfile.xml` &#x2013; but not the substantial larger `.pdf`.
 
-The smaller script, `joss-papers-master.zip` retrieves the small
+The smaller script, `joss-papers-master.zip`, retrieves the small
 «cite as» block provided on each `.html` of the corresponding
 publication, in either `.txt` or `.csv` format.  The larger
 `bibtool_Joss_bibtex.py` attempts to retrieve *basic* bibliographic
