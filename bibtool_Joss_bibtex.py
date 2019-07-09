@@ -192,13 +192,18 @@ def extract_data():
         print("\ntest bibtex_export:\n{}".format(bibtex_export))
         print("")
 
-#        list_export = str(key) + str(";") +\
-#                      str(list_authors) + str(";") +\
-#                      str(title) + str(";") +\
-#                      str(year) + str(";") + str(volume) + str(";") +\
-#                      str(pages) + str(";") + str(list_doi)
-#        list_register.append(list_export)
-#        key += 1
+        # construction of entry for .csv:
+        list_export = str(key) + str(";") +\
+                      str(list_authors) + str(";") +\
+                      str(title) + str(";") +\
+                      str(year) + str(";") + str(volume) + str(";") +\
+                      str(pages) + str(";") +\
+                      str("doi: ") + str(publication_doi) + str(".\n")
+        list_register.append(list_export)
+        print("\ntest list_export:\n{}".format(list_export))
+        print("")
+
+        key += 1
 
 
 def reporting():
