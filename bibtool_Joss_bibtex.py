@@ -197,8 +197,8 @@ def extract_data():
                       str(list_authors) + str(";") +\
                       str(title) + str(";") +\
                       str(year) + str(";") + str(volume) + str(";") +\
-                      str(pages) + str(";") +\
-                      str("doi: ") + str(publication_doi) + str(".\n")
+                      str(issue) + str(";") + str(pages) + str(";") +\
+                      str("doi: ") + str(publication_doi) + str("\n")
         list_register.append(list_export)
         print("\ntest list_export:\n{}".format(list_export))
         print("")
@@ -214,6 +214,14 @@ def reporting():
             newfile.write(output)
 
     with open("report.csv", mode="w") as newfile:
+        list_header = str("key") + str(";") +\
+                      str("list_authors") + str(";") +\
+                      str("title") + str(";") +\
+                      str("year") + str(";") + str("volume") + str(";") +\
+                      str("issue") + str(";") + str("first page") + str(";") +\
+                      str("publication_doi") + str("\n")
+        newfile.write(list_header)
+        
         for entry in list_register:
             output = str(entry)# + str("\n")
             newfile.write(output)
