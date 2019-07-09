@@ -75,7 +75,7 @@ def open_archive():
     archive = zipfile.ZipFile(used_archive)
     content_list = archive.infolist()
     for content in content_list:
-        if fnmatch.fnmatch(content.filename, "*.html"):
+        if fnmatch.fnmatch(content.filename, "*.crossref.xml"):
             archive.extract(content.filename)
     archive.close()
 
@@ -87,7 +87,7 @@ def open_archive():
             os.chdir(subfolder)
 
             for file in os.listdir("."):
-                if fnmatch.fnmatch(file, "*.html"):
+                if fnmatch.fnmatch(file, "*.crossref.xml"):
                     shutil.move(file, local)
             os.chdir(local)
             shutil.rmtree(subfolder)
@@ -231,9 +231,9 @@ print("\nScript 'testing.py' started.")
 
 provide_clearance()
 open_archive()
-extract_data()
+# extract_data()
 
-space_cleaning()
-reporting()
+# space_cleaning()
+# reporting()
 print("\nScript 'testing.py' completed its task and closes now.\n")
 sys.exit()
