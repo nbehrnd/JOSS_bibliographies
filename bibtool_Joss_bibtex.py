@@ -96,7 +96,7 @@ def open_archive():
 def extract_data():
     """ extract just the brief descriptions of the articles """
     for file in os.listdir("."):
-        if fnmatch.fnmatch(file, "10.21105.joss.*.html"):
+        if fnmatch.fnmatch(file, "*.crossref.xml"):
             article_register.append(file)
     article_register.sort()
 
@@ -107,92 +107,129 @@ def extract_data():
     list_register = []
     key = 1
 
-    for article in article_register:
+    for article in article_register[:4]:
         stone = open(article)
-
         soup = BeautifulSoup(stone, "lxml")
 
-        # retrieve the title of the publication, the first entry tagged by h1
-        tags = soup('h1')
-        title = str(tags[0].get_text())
+        search_title = soup("titles")
+        title = str(search_title[0].get_text())[1:].strip()
+        print("title: {}".format(title))
 
-        # retrieve the authors of the publication
-        author_list = soup.find('ul', attrs={'author-list'}).get_text()
+        search_publication_doi = soup("doi")
+        publication_doi = str(search_publication_doi[1].get_text()).strip()
+        print("publication_doi: {}".format(publication_doi))
 
-        # a) preparation for list_authors:
-        list_authors = ""
-        for char in str(author_list)[1:-1]:
-            if char == str("\n"):
-                list_authors += str(", ")
-            else:
-                list_authors += str(char)
+        search_pdf_url = soup("item")
+        url = str(search_pdf_url[0].get_text())[1:].strip()
+        print("url: {}".format(url))
 
-        # b) preparation for the bibTeX export
-        bibtex_authors = ""
-        for char in str(author_list)[1:-1]:
-            if char == str("\n"):
-                bibtex_authors += str(" and ")
-            else:
-                bibtex_authors += str(char)
+        search_year = soup("year")
+        year = str(search_year[0].get_text()).strip()
+        print("year: {}".format(year))
 
-        # retrieve the DOI of the publication (not the one for SI software)
-        doi = soup.find_all('span', attrs={'repo'})
+        search_volume = soup("journal_volume")
+        volume = str(search_volume[0].get_text())[1:].strip()
+        print("volume: {}".format(volume))
 
-        list_doi = str(doi[-1].get_text())[4:]
-        bibtex_doi = str(list_doi)[16:]
+        search_issue = soup("issue")
+        issue = str(search_issue[0].get_text()).strip()
+        print("issue: {}".format(issue))
 
-        # retrieve volume and issue of the publication
-        pocket = soup.find('small').get_text()
-        volume_and_issue = pocket.split(", ")[2]
+        search_first_page = soup("first_page")
+        pages = str(search_first_page[0].get_text()).strip()
+        print("pages: {}".format(pages))
 
-        # issue = str(pocket.split(", ")[2])
-        volume = str(pocket.split(", ")[2]).split("(")[0]
+        search_authors_given_name = soup("given_name")
+        search_authors_surname = soup("surname")
+        author_register = []
+        for given_name, surname in zip(search_authors_given_name,
+                                       search_authors_surname):
+            retain = str(given_name.get_text()) + str(" ") + str(surname.get_text())
+            author_register.append(retain)
 
-        # retrieve the starting page.
-        pages = str(pocket.split(" ")[-2])[:-1]
+        print("author_register: {}".format(author_register))
 
-        # retrieve year of publication
-        testing = soup.find('small').get_text()
-        year = str(str(testing).split("(")[1])[:4]
+#         retrieve the title of the publication, the first entry tagged by h1
+#        tags = soup('h1')
+#        title = str(tags[0].get_text())
 
-        # retrieve the deposit of the .pdf
-        # pdf_paper = str("https://joss.theoj.org/papers/") + \
-        #             str(list_doi).split("/")[-1] + str("/") + \
-        #             str("10.21105/") + str(list_doi).split("/")[-1] + \
-        #             str(".pdf")
+#         retrieve the authors of the publication
+#        author_list = soup.find('ul', attrs={'author-list'}).get_text()
 
-        # retrieve the rooting url about the publication
-        url = str("https://joss.theoj.org/papers/") + \
-              str(list_doi).split("/")[-1] + str("/") + \
-              str("10.21105/") + str(list_doi).split("/")[-1]
+#         a) preparation for list_authors:
+#        list_authors = ""
+#        for char in str(author_list)[1:-1]:
+#            if char == str("\n"):
+#                list_authors += str(", ")
+#            else:
+#                list_authors += str(char)
 
-        # useful (constant) entries for literature referencers (e.g., zotero)
-        journal = str("Journal of Open Source Software")
-        ISSN = str("2475-9066")
+#         b) preparation for the bibTeX export
+#        bibtex_authors = ""
+#        for char in str(author_list)[1:-1]:
+#            if char == str("\n"):
+#                bibtex_authors += str(" and ")
+#            else:
+#                bibtex_authors += str(char)
 
-        bibtex_export = str('@article{') + str(key) + str(',\n') +\
-                        str('author = {') + str(bibtex_authors) + str('},\n') +\
-                        str('title = {') + str(title) + str('},\n') +\
-                        str('journal = {') + str(journal) + str('},\n') +\
-                        str('ISSN = {') + str(ISSN) + str('},\n') +\
-                        str('year = {') + str(year) + str('},\n') +\
-                        str('volume = {') + str(volume) + str('},\n') +\
-                        str('number = {') + str() + str('},\n') +\
-                        str('pages = {') + str(pages) + str('},\n') +\
-                        str('doi = {') + str(bibtex_doi) + str('},\n') +\
-                        str('url = {') + str(url) + str('},\n') +\
-                        str("}")
-        bibtex_register.append(bibtex_export)
-        print(bibtex_export)
-        print("")
+#         retrieve the DOI of the publication (not the one for SI software)
+#        doi = soup.find_all('span', attrs={'repo'})
 
-        list_export = str(key) + str(";") +\
-                      str(list_authors) + str(";") +\
-                      str(title) + str(";") +\
-                      str(year) + str(";") + str(volume) + str(";") +\
-                      str(pages) + str(";") + str(list_doi)
-        list_register.append(list_export)
-        key += 1
+#        list_doi = str(doi[-1].get_text())[4:]
+#        bibtex_doi = str(list_doi)[16:]
+
+#         retrieve volume and issue of the publication
+#        pocket = soup.find('small').get_text()
+#        volume_and_issue = pocket.split(", ")[2]
+
+#         issue = str(pocket.split(", ")[2])
+#        volume = str(pocket.split(", ")[2]).split("(")[0]
+
+#         retrieve the starting page.
+#        pages = str(pocket.split(" ")[-2])[:-1]
+
+#         retrieve year of publication
+#        testing = soup.find('small').get_text()
+#        year = str(str(testing).split("(")[1])[:4]
+
+#         retrieve the deposit of the .pdf
+#         pdf_paper = str("https://joss.theoj.org/papers/") + \
+#                     str(list_doi).split("/")[-1] + str("/") + \
+#                     str("10.21105/") + str(list_doi).split("/")[-1] + \
+#                     str(".pdf")
+
+#         retrieve the rooting url about the publication
+#        url = str("https://joss.theoj.org/papers/") + \
+#              str(list_doi).split("/")[-1] + str("/") + \
+#              str("10.21105/") + str(list_doi).split("/")[-1]
+
+#         useful (constant) entries for literature referencers (e.g., zotero)
+#        journal = str("Journal of Open Source Software")
+#        ISSN = str("2475-9066")
+
+#        bibtex_export = str('@article{') + str(key) + str(',\n') +\
+#                        str('author = {') + str(bibtex_authors) + str('},\n') +\
+#                        str('title = {') + str(title) + str('},\n') +\
+#                        str('journal = {') + str(journal) + str('},\n') +\
+#                        str('ISSN = {') + str(ISSN) + str('},\n') +\
+#                        str('year = {') + str(year) + str('},\n') +\
+#                        str('volume = {') + str(volume) + str('},\n') +\
+#                        str('number = {') + str() + str('},\n') +\
+#                        str('pages = {') + str(pages) + str('},\n') +\
+#                        str('doi = {') + str(bibtex_doi) + str('},\n') +\
+#                        str('url = {') + str(url) + str('},\n') +\
+#                        str("}")
+#        bibtex_register.append(bibtex_export)
+#        print(bibtex_export)
+#        print("")
+
+#        list_export = str(key) + str(";") +\
+#                      str(list_authors) + str(";") +\
+#                      str(title) + str(";") +\
+#                      str(year) + str(";") + str(volume) + str(";") +\
+#                      str(pages) + str(";") + str(list_doi)
+#        list_register.append(list_export)
+#        key += 1
 
 
 def reporting():
@@ -231,7 +268,7 @@ print("\nScript 'testing.py' started.")
 
 provide_clearance()
 open_archive()
-# extract_data()
+extract_data()
 
 # space_cleaning()
 # reporting()
