@@ -175,21 +175,22 @@ def extract_data():
         journal = str("Journal of Open Source Software")
         ISSN = str("2475-9066")
 
-#        bibtex_export = str('@article{') + str(key) + str(',\n') +\
-#                        str('author = {') + str(bibtex_authors) + str('},\n') +\
-#                        str('title = {') + str(title) + str('},\n') +\
-#                        str('journal = {') + str(journal) + str('},\n') +\
-#                        str('ISSN = {') + str(ISSN) + str('},\n') +\
-#                        str('year = {') + str(year) + str('},\n') +\
-#                        str('volume = {') + str(volume) + str('},\n') +\
-#                        str('number = {') + str() + str('},\n') +\
-#                        str('pages = {') + str(pages) + str('},\n') +\
-#                        str('doi = {') + str(bibtex_doi) + str('},\n') +\
-#                        str('url = {') + str(url) + str('},\n') +\
-#                        str("}")
-#        bibtex_register.append(bibtex_export)
-#        print(bibtex_export)
-#        print("")
+        # construction of entry for BibTeX:
+        bibtex_export = str('@article{') + str(key) + str(',\n') +\
+                        str('author = {') + str(bibtex_authors) + str('},\n') +\
+                        str('title = {') + str(title) + str('},\n') +\
+                        str('journal = {') + str(journal) + str('},\n') +\
+                        str('ISSN = {') + str(ISSN) + str('},\n') +\
+                        str('year = {') + str(year) + str('},\n') +\
+                        str('volume = {') + str(volume) + str('},\n') +\
+                        str('number = {') + str() + str('},\n') +\
+                        str('pages = {') + str(pages) + str('},\n') +\
+                        str('doi = {') + str(publication_doi) + str('},\n') +\
+                        str('url = {') + str(url) + str('},\n') +\
+                        str("}")
+        bibtex_register.append(bibtex_export)
+        print("\ntest bibtex_export:\n{}".format(bibtex_export))
+        print("")
 
 #        list_export = str(key) + str(";") +\
 #                      str(list_authors) + str(";") +\
