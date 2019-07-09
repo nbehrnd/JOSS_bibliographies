@@ -1,0 +1,17 @@
+This is file change.log, providing a brief survey about modifications
+in the project "Joss_biliographies".
+
+YYYY-MM-DD | key events
+-----------|---------------------------------------------------------
+2019-07-08 | Initial deposit of the scripts bibtool_Joss_pocket.py
+             and bibtool_Joss_bibtex.py on GitHub.  To collect a
+             selection of bibliographic data of publications accepted
+             by JOSS, the corresponding zip archive is extracted
+             completely.  The relevant data are retrieved from .html
+             as source files which eventually are removed, like all
+             other intermediate data; yielding simple .txt, .csv or
+             .bib for futher processing.
+---------------------------------------------------------------------
+2019-07-09 | While accessing the corresponding .zip archive, both 
+             scripts now retrieve only the source files read-out,
+             i.e. only the intermediate .html.  
